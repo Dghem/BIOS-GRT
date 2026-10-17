@@ -1,0 +1,624 @@
+2026-02-23 16:56:12.566 | pid 4232 | HackBGRT installer version: v2.5.2
+2026-02-23 16:56:12.590 | pid 4232 | Windows version: Microsoft Windows NT 6.2.9200.0
+2026-02-23 16:56:12.592 | pid 4232 | Args: 
+2026-02-23 16:56:12.631 | pid 4232 | Your OS uses arch=x64. This will be checked again during installation.
+2026-02-23 16:56:12.633 | pid 4232 | 
+2026-02-23 16:56:12.633 | pid 4232 | Choose action (press a key):
+2026-02-23 16:56:12.634 | pid 4232 |  I = install
+2026-02-23 16:56:12.634 | pid 4232 |      - creates a new EFI boot entry for HackBGRT
+2026-02-23 16:56:12.634 | pid 4232 |  J = install (alternative)
+2026-02-23 16:56:12.635 | pid 4232 |      - creates a new EFI boot entry with an alternative method
+2026-02-23 16:56:12.635 | pid 4232 |      - try this if the first option doesn't work
+2026-02-23 16:56:12.636 | pid 4232 |  O = install (legacy)
+2026-02-23 16:56:12.636 | pid 4232 |      - overwrites the MS boot loader; gets removed by Windows updates
+2026-02-23 16:56:12.636 | pid 4232 |      - use as last resort; may brick your system if configured incorrectly
+2026-02-23 16:56:12.637 | pid 4232 |  F = install files only
+2026-02-23 16:56:12.638 | pid 4232 |      - ok for updating config, doesn't touch boot entries
+2026-02-23 16:56:12.639 | pid 4232 |  D = disable
+2026-02-23 16:56:12.639 | pid 4232 |      - removes created entries, restores MS boot loader
+2026-02-23 16:56:12.641 | pid 4232 |  R = remove completely
+2026-02-23 16:56:12.641 | pid 4232 |      - disables, then deletes all files and images
+2026-02-23 16:56:12.642 | pid 4232 |  B = boot to UEFI setup
+2026-02-23 16:56:12.642 | pid 4232 |      - lets you disable Secure Boot
+2026-02-23 16:56:12.643 | pid 4232 |      - lets you move HackBGRT before Windows in boot order
+2026-02-23 16:56:12.643 | pid 4232 |  L = show boot log (what HackBGRT did during boot)
+2026-02-23 16:56:12.643 | pid 4232 |  C = cancel
+2026-02-23 16:56:47.865 | pid 15896 | HackBGRT installer version: v2.5.2
+2026-02-23 16:56:47.868 | pid 15896 | Windows version: Microsoft Windows NT 6.2.9200.0
+2026-02-23 16:56:47.868 | pid 15896 | Args: 
+2026-02-23 16:56:47.876 | pid 15896 | Your OS uses arch=x64. This will be checked again during installation.
+2026-02-23 16:56:47.878 | pid 15896 | 
+2026-02-23 16:56:47.879 | pid 15896 | Choose action (press a key):
+2026-02-23 16:56:47.880 | pid 15896 |  I = install
+2026-02-23 16:56:47.880 | pid 15896 |      - creates a new EFI boot entry for HackBGRT
+2026-02-23 16:56:47.881 | pid 15896 |  J = install (alternative)
+2026-02-23 16:56:47.881 | pid 15896 |      - creates a new EFI boot entry with an alternative method
+2026-02-23 16:56:47.882 | pid 15896 |      - try this if the first option doesn't work
+2026-02-23 16:56:47.883 | pid 15896 |  O = install (legacy)
+2026-02-23 16:56:47.884 | pid 15896 |      - overwrites the MS boot loader; gets removed by Windows updates
+2026-02-23 16:56:47.884 | pid 15896 |      - use as last resort; may brick your system if configured incorrectly
+2026-02-23 16:56:47.884 | pid 15896 |  F = install files only
+2026-02-23 16:56:47.885 | pid 15896 |      - ok for updating config, doesn't touch boot entries
+2026-02-23 16:56:47.885 | pid 15896 |  D = disable
+2026-02-23 16:56:47.888 | pid 15896 |      - removes created entries, restores MS boot loader
+2026-02-23 16:56:47.889 | pid 15896 |  R = remove completely
+2026-02-23 16:56:47.889 | pid 15896 |      - disables, then deletes all files and images
+2026-02-23 16:56:47.891 | pid 15896 |  B = boot to UEFI setup
+2026-02-23 16:56:47.892 | pid 15896 |      - lets you disable Secure Boot
+2026-02-23 16:56:47.893 | pid 15896 |      - lets you move HackBGRT before Windows in boot order
+2026-02-23 16:56:47.894 | pid 15896 |  L = show boot log (what HackBGRT did during boot)
+2026-02-23 16:56:47.896 | pid 15896 |  C = cancel
+2026-02-23 16:57:00.982 | pid 15896 | User input: I
+2026-02-23 16:57:00.983 | pid 15896 | 
+2026-02-23 16:57:00.983 | pid 15896 | This setup program lets you edit just one image.
+2026-02-23 16:57:00.983 | pid 15896 | Edit config.txt manually for advanced configuration.
+2026-02-23 16:57:00.984 | pid 15896 | Draw or copy your preferred image to splash.bmp.
+2026-02-23 16:57:00.985 | pid 15896 | StartProcess: mspaint splash.bmp
+2026-02-23 16:57:01.013 | pid 15896 | StartProcess failed: System.ComponentModel.Win32Exception (0x80004005): The system cannot find the file specified
+2026-02-23 16:57:01.013 | pid 15896 |    at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+2026-02-23 16:57:01.013 | pid 15896 |    at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+2026-02-23 16:57:01.013 | pid 15896 |    at Setup.StartProcess(String app, String args)
+2026-02-23 16:57:01.014 | pid 15896 | Editing splash.bmp with mspaint failed!
+2026-02-23 16:57:01.014 | pid 15896 | Edit splash.bmp with your preferred editor.
+2026-02-23 16:57:01.014 | pid 15896 | Press any key to continue.
+2026-02-23 16:57:03.286 | pid 15896 | 
+2026-02-23 16:57:03.295 | pid 15896 | RunPrivilegedActions: disable install enable-bcdedit
+2026-02-23 16:57:03.305 | pid 15896 | Esp: Detect from mountvol output.
+2026-02-23 16:57:03.308 | pid 15896 | Execute: mountvol 
+2026-02-23 16:57:03.346 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:03.346 | pid 15896 | Creates, deletes, or lists a volume mount point.
+2026-02-23 16:57:03.346 | pid 15896 | 
+2026-02-23 16:57:03.346 | pid 15896 | MOUNTVOL [drive:]path VolumeName
+2026-02-23 16:57:03.346 | pid 15896 | MOUNTVOL [drive:]path /D
+2026-02-23 16:57:03.346 | pid 15896 | MOUNTVOL [drive:]path /L
+2026-02-23 16:57:03.346 | pid 15896 | MOUNTVOL [drive:]path /P
+2026-02-23 16:57:03.346 | pid 15896 | MOUNTVOL /R
+2026-02-23 16:57:03.346 | pid 15896 | MOUNTVOL /N
+2026-02-23 16:57:03.346 | pid 15896 | MOUNTVOL /E
+2026-02-23 16:57:03.346 | pid 15896 | MOUNTVOL drive: /S
+2026-02-23 16:57:03.346 | pid 15896 | 
+2026-02-23 16:57:03.346 | pid 15896 |     path        Specifies the existing NTFS directory where the mount
+2026-02-23 16:57:03.346 | pid 15896 |                 point will reside.
+2026-02-23 16:57:03.346 | pid 15896 |     VolumeName  Specifies the volume name that is the target of the mount
+2026-02-23 16:57:03.346 | pid 15896 |                 point.
+2026-02-23 16:57:03.346 | pid 15896 |     /D          Removes the volume mount point from the specified directory.
+2026-02-23 16:57:03.346 | pid 15896 |     /L          Lists the mounted volume name for the specified directory.
+2026-02-23 16:57:03.346 | pid 15896 |     /P          Removes the volume mount point from the specified directory,
+2026-02-23 16:57:03.346 | pid 15896 |                 dismounts the volume, and makes the volume not mountable.
+2026-02-23 16:57:03.346 | pid 15896 |                 You can make the volume mountable again by creating a volume
+2026-02-23 16:57:03.346 | pid 15896 |                 mount point.
+2026-02-23 16:57:03.346 | pid 15896 |     /R          Removes volume mount point directories and registry settings
+2026-02-23 16:57:03.346 | pid 15896 |                 for volumes that are no longer in the system.
+2026-02-23 16:57:03.346 | pid 15896 |     /N          Disables automatic mounting of new volumes.
+2026-02-23 16:57:03.346 | pid 15896 |     /E          Re-enables automatic mounting of new volumes.
+2026-02-23 16:57:03.346 | pid 15896 |     /S          Mount the EFI System Partition on the given drive.
+2026-02-23 16:57:03.346 | pid 15896 | 
+2026-02-23 16:57:03.346 | pid 15896 | Possible values for VolumeName along with current mount points are:
+2026-02-23 16:57:03.346 | pid 15896 | 
+2026-02-23 16:57:03.346 | pid 15896 |     \\?\Volume{e3a2155f-8bf6-4cde-b96c-26b83fc87a8e}\
+2026-02-23 16:57:03.346 | pid 15896 |         D:\
+2026-02-23 16:57:03.346 | pid 15896 | 
+2026-02-23 16:57:03.346 | pid 15896 |     \\?\Volume{b1abb896-62a3-4860-a809-0c8376c27ba8}\
+2026-02-23 16:57:03.346 | pid 15896 |         C:\
+2026-02-23 16:57:03.346 | pid 15896 | 
+2026-02-23 16:57:03.346 | pid 15896 |     \\?\Volume{2d0d2e2b-e42e-4780-9de3-c9ecc89f22fe}\
+2026-02-23 16:57:03.346 | pid 15896 |         *** NO MOUNT POINTS ***
+2026-02-23 16:57:03.346 | pid 15896 | 
+2026-02-23 16:57:03.346 | pid 15896 |     \\?\Volume{9d5a84e7-1e42-4917-ac6f-74b644e78dc3}\
+2026-02-23 16:57:03.346 | pid 15896 |         *** NO MOUNT POINTS ***
+2026-02-23 16:57:03.346 | pid 15896 | 
+2026-02-23 16:57:03.346 | pid 15896 | 
+2026-02-23 16:57:03.346 | pid 15896 | 
+2026-02-23 16:57:03.346 | pid 15896 | 
+2026-02-23 16:57:03.354 | pid 15896 | Esp: no match
+2026-02-23 16:57:03.356 | pid 15896 | Esp: Try to mount with mountvol.
+2026-02-23 16:57:03.356 | pid 15896 | Esp.Mount: A
+2026-02-23 16:57:03.356 | pid 15896 | Execute: mountvol A: /S
+2026-02-23 16:57:03.377 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:03.377 | pid 15896 | 
+2026-02-23 16:57:03.377 | pid 15896 | 
+2026-02-23 16:57:03.377 | pid 15896 | 
+2026-02-23 16:57:03.378 | pid 15896 | Esp.TryPath: A:\ has MS boot loader
+2026-02-23 16:57:03.379 | pid 15896 | EFI System Partition location is A:\
+2026-02-23 16:57:03.433 | pid 15896 | Detected arch=x64 from MS boot loader, the installer will use that.
+2026-02-23 16:57:03.439 | pid 15896 | 
+2026-02-23 16:57:03.439 | pid 15896 | --- BOOT LOG START ---
+2026-02-23 16:57:03.439 | pid 15896 | Boot log is empty.
+2026-02-23 16:57:03.439 | pid 15896 | --- BOOT LOG END ---
+2026-02-23 16:57:03.440 | pid 15896 | LogBGRT: 56 bytes: 42 47 52 54 38 00 00 00 01 75 44 45 4C 4C 20 20 44 65 6C 6C 20 49 6E 63 02 00 00 00 20 20 20 20 13 00 00 01 01 00 01 00 18 20 C5 56 00 00 00 00 5E 03 00 00 BA 01 00 00
+2026-02-23 16:57:03.474 | pid 15896 | LogEntries: BootOrder Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='            ' Bytes='04 00 00 00 06 00 03 00 01 00 02 00'
+2026-02-23 16:57:03.475 | pid 15896 | LogEntries: BootCurrent Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=6 Text='  ' Bytes='04 00'
+2026-02-23 16:57:03.505 | pid 15896 | LogEntries: Boot0004 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    t W i n d o w s   B o o t   M a n a g e r     *              @        Z B  I ot D       F \ E F I \ M i c r o s o f t \ B o o t \ b o o t m g f w . e f i      WINDOWS         x   B C D O B J E C T = { 9 d e a 8 6 2 c - 5 c d d - 4 e 7 0 - a c c 1 - f 3 2 b 3 4 4 d 4 7 9 5 }   .                ' Bytes='01 00 00 00 74 00 57 00 69 00 6E 00 64 00 6F 00 77 00 73 00 20 00 42 00 6F 00 6F 00 74 00 20 00 4D 00 61 00 6E 00 61 00 67 00 65 00 72 00 00 00 04 01 2A 00 01 00 00 00 00 08 00 00 00 00 00 00 00 40 06 00 00 00 00 00 E7 84 5A 9D 42 1E 17 49 AC 6F 74 B6 44 E7 8D C3 02 02 04 04 46 00 5C 00 45 00 46 00 49 00 5C 00 4D 00 69 00 63 00 72 00 6F 00 73 00 6F 00 66 00 74 00 5C 00 42 00 6F 00 6F 00 74 00 5C 00 62 00 6F 00 6F 00 74 00 6D 00 67 00 66 00 77 00 2E 00 65 00 66 00 69 00 00 00 7F FF 04 00 57 49 4E 44 4F 57 53 00 01 00 00 00 88 00 00 00 78 00 00 00 42 00 43 00 44 00 4F 00 42 00 4A 00 45 00 43 00 54 00 3D 00 7B 00 39 00 64 00 65 00 61 00 38 00 36 00 32 00 63 00 2D 00 35 00 63 00 64 00 64 00 2D 00 34 00 65 00 37 00 30 00 2D 00 61 00 63 00 63 00 31 00 2D 00 66 00 33 00 32 00 62 00 33 00 34 00 34 00 64 00 34 00 37 00 39 00 35 00 7D 00 00 00 2E 00 01 00 00 00 10 00 00 00 04 00 00 00 7F FF 04 00'
+2026-02-23 16:57:03.505 | pid 15896 | LogEntries: Boot0000 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    ^ U E F I   2 4 0 0 A   N V M e   M i c r o n   5 1 2 G B   2 4 0 2 4 6 D B 2 F D 7   1     *              @        Z B  I ot D       0 \ E F I \ B o o t \ B o o t X 6 4 . e f i      N     YM    R,Y ' Bytes='01 00 00 00 5E 00 55 00 45 00 46 00 49 00 20 00 32 00 34 00 30 00 30 00 41 00 20 00 4E 00 56 00 4D 00 65 00 20 00 4D 00 69 00 63 00 72 00 6F 00 6E 00 20 00 35 00 31 00 32 00 47 00 42 00 20 00 32 00 34 00 30 00 32 00 34 00 36 00 44 00 42 00 32 00 46 00 44 00 37 00 20 00 31 00 00 00 04 01 2A 00 01 00 00 00 00 08 00 00 00 00 00 00 00 40 06 00 00 00 00 00 E7 84 5A 9D 42 1E 17 49 AC 6F 74 B6 44 E7 8D C3 02 02 04 04 30 00 5C 00 45 00 46 00 49 00 5C 00 42 00 6F 00 6F 00 74 00 5C 00 42 00 6F 00 6F 00 74 00 58 00 36 00 34 00 2E 00 65 00 66 00 69 00 00 00 7F FF 04 00 4E AC 08 81 11 9F 59 4D 85 0E E2 1A 52 2C 59 B2'
+2026-02-23 16:57:03.506 | pid 15896 | LogEntries: Boot0006 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    b u b u n t u     *                     n A)  )J      {s    4 \ E F I \ u b u n t u \ s h i m x 6 4 . e f i      ' Bytes='01 00 00 00 62 00 75 00 62 00 75 00 6E 00 74 00 75 00 00 00 04 01 2A 00 01 00 00 00 00 08 00 00 00 00 00 00 00 D0 20 00 00 00 00 00 6E F6 41 29 E5 88 29 4A B7 83 A2 DB 85 AA 7B 73 02 02 04 04 34 00 5C 00 45 00 46 00 49 00 5C 00 75 00 62 00 75 00 6E 00 74 00 75 00 5C 00 73 00 68 00 69 00 6D 00 78 00 36 00 34 00 2E 00 65 00 66 00 69 00 00 00 7F FF 04 00'
+2026-02-23 16:57:03.507 | pid 15896 | LogEntries: Boot0003 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    ` U E F I   H T T P s   B o o t        A                    %                                                                    N     YM    R,Y ' Bytes='01 00 00 00 60 00 55 00 45 00 46 00 49 00 20 00 48 00 54 00 54 00 50 00 73 00 20 00 42 00 6F 00 6F 00 74 00 00 00 02 01 0C 00 D0 41 03 0A 00 00 00 00 01 01 06 00 00 1D 01 01 06 00 00 00 03 0B 25 00 04 BF 1B C1 89 11 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 0C 1B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 18 04 00 7F FF 04 00 4E AC 08 81 11 9F 59 4D 85 0E E2 1A 52 2C 59 B2'
+2026-02-23 16:57:03.508 | pid 15896 | LogEntries: Boot0001 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    \ O N B O A R D   N I C   ( I P V 4 )        A                    %                                                                N     YM    R,Y ' Bytes='01 00 00 00 5C 00 4F 00 4E 00 42 00 4F 00 41 00 52 00 44 00 20 00 4E 00 49 00 43 00 20 00 28 00 49 00 50 00 56 00 34 00 29 00 00 00 02 01 0C 00 D0 41 03 0A 00 00 00 00 01 01 06 00 00 1D 01 01 06 00 00 00 03 0B 25 00 04 BF 1B C1 89 11 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 0C 1B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 7F FF 04 00 4E AC 08 81 11 9F 59 4D 85 0E E2 1A 52 2C 59 B2'
+2026-02-23 16:57:03.508 | pid 15896 | LogEntries: Boot0002 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    } O N B O A R D   N I C   ( I P V 6 )        A                    %                                    <                                        @                   N     YM    R,Y ' Bytes='01 00 00 00 7D 00 4F 00 4E 00 42 00 4F 00 41 00 52 00 44 00 20 00 4E 00 49 00 43 00 20 00 28 00 49 00 50 00 56 00 36 00 29 00 00 00 02 01 0C 00 D0 41 03 0A 00 00 00 00 01 01 06 00 00 1D 01 01 06 00 00 00 03 0B 25 00 04 BF 1B C1 89 11 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 0D 3C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 7F FF 04 00 4E AC 08 81 11 9F 59 4D 85 0E E2 1A 52 2C 59 B2'
+2026-02-23 16:57:03.519 | pid 15896 | HackBGRT boot entry is missing.
+2026-02-23 16:57:03.598 | pid 15896 | Boot time = 2026-02-20 1:40:31 PM, config.txt changed = 2026-02-23 4:54:04 PM
+2026-02-23 16:57:03.598 | pid 15896 | Windows was booted at 2026-02-20 1:40:31 PM. Remember to reboot after installing!
+2026-02-23 16:57:03.599 | pid 15896 | You may have to disable Fast Startup (Hiberboot) to reboot properly.
+2026-02-23 16:57:03.600 | pid 15896 | Running action 'disable'.
+2026-02-23 16:57:03.925 | pid 15896 | DetectLoader failed: A:\EFI\HackBGRT\bootmgfw-original.efi not found
+2026-02-23 16:57:03.926 | pid 15896 | Execute: bcdedit /enum firmware
+2026-02-23 16:57:04.002 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:04.002 | pid 15896 | 
+2026-02-23 16:57:04.002 | pid 15896 | Firmware Boot Manager
+2026-02-23 16:57:04.002 | pid 15896 | ---------------------
+2026-02-23 16:57:04.002 | pid 15896 | identifier              {fwbootmgr}
+2026-02-23 16:57:04.002 | pid 15896 | displayorder            {bootmgr}
+2026-02-23 16:57:04.002 | pid 15896 |                         {3e19551c-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.002 | pid 15896 |                         {3e19551b-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.002 | pid 15896 |                         {3e19551a-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.002 | pid 15896 |                         {3e195518-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.002 | pid 15896 |                         {3e195519-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.002 | pid 15896 | timeout                 0
+2026-02-23 16:57:04.002 | pid 15896 | 
+2026-02-23 16:57:04.002 | pid 15896 | Windows Boot Manager
+2026-02-23 16:57:04.002 | pid 15896 | --------------------
+2026-02-23 16:57:04.002 | pid 15896 | identifier              {bootmgr}
+2026-02-23 16:57:04.002 | pid 15896 | device                  partition=A:
+2026-02-23 16:57:04.002 | pid 15896 | path                    \EFI\Microsoft\Boot\bootmgfw.efi
+2026-02-23 16:57:04.002 | pid 15896 | description             Windows Boot Manager
+2026-02-23 16:57:04.002 | pid 15896 | locale                  en-US
+2026-02-23 16:57:04.002 | pid 15896 | inherit                 {globalsettings}
+2026-02-23 16:57:04.002 | pid 15896 | default                 {current}
+2026-02-23 16:57:04.002 | pid 15896 | resumeobject            {3e19551e-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.002 | pid 15896 | displayorder            {current}
+2026-02-23 16:57:04.002 | pid 15896 | toolsdisplayorder       {memdiag}
+2026-02-23 16:57:04.002 | pid 15896 | timeout                 30
+2026-02-23 16:57:04.002 | pid 15896 | 
+2026-02-23 16:57:04.002 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:04.002 | pid 15896 | -------------------------------
+2026-02-23 16:57:04.002 | pid 15896 | identifier              {3e195518-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.002 | pid 15896 | description             ONBOARD NIC (IPV4)
+2026-02-23 16:57:04.002 | pid 15896 | 
+2026-02-23 16:57:04.002 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:04.002 | pid 15896 | -------------------------------
+2026-02-23 16:57:04.002 | pid 15896 | identifier              {3e195519-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.002 | pid 15896 | description             ONBOARD NIC (IPV6)
+2026-02-23 16:57:04.002 | pid 15896 | 
+2026-02-23 16:57:04.002 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:04.002 | pid 15896 | -------------------------------
+2026-02-23 16:57:04.002 | pid 15896 | identifier              {3e19551a-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.002 | pid 15896 | description             UEFI HTTPs Boot
+2026-02-23 16:57:04.002 | pid 15896 | 
+2026-02-23 16:57:04.002 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:04.002 | pid 15896 | -------------------------------
+2026-02-23 16:57:04.002 | pid 15896 | identifier              {3e19551b-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.002 | pid 15896 | path                    \EFI\ubuntu\shimx64.efi
+2026-02-23 16:57:04.002 | pid 15896 | description             ubuntu
+2026-02-23 16:57:04.002 | pid 15896 | 
+2026-02-23 16:57:04.002 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:04.002 | pid 15896 | -------------------------------
+2026-02-23 16:57:04.002 | pid 15896 | identifier              {3e19551c-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.002 | pid 15896 | device                  partition=A:
+2026-02-23 16:57:04.002 | pid 15896 | path                    \EFI\Boot\BootX64.efi
+2026-02-23 16:57:04.002 | pid 15896 | description             UEFI 2400A NVMe Micron 512GB 240246DB2FD7 1
+2026-02-23 16:57:04.002 | pid 15896 | 
+2026-02-23 16:57:04.002 | pid 15896 | 
+2026-02-23 16:57:04.002 | pid 15896 | 
+2026-02-23 16:57:04.005 | pid 15896 | Execute: bcdedit /enum {3e19551c-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.055 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:04.055 | pid 15896 | 
+2026-02-23 16:57:04.055 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:04.055 | pid 15896 | -------------------------------
+2026-02-23 16:57:04.055 | pid 15896 | identifier              {3e19551c-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.055 | pid 15896 | device                  partition=A:
+2026-02-23 16:57:04.055 | pid 15896 | path                    \EFI\Boot\BootX64.efi
+2026-02-23 16:57:04.055 | pid 15896 | description             UEFI 2400A NVMe Micron 512GB 240246DB2FD7 1
+2026-02-23 16:57:04.055 | pid 15896 | 
+2026-02-23 16:57:04.055 | pid 15896 | 
+2026-02-23 16:57:04.055 | pid 15896 | 
+2026-02-23 16:57:04.055 | pid 15896 | Execute: bcdedit /enum {3e19551b-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.097 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:04.097 | pid 15896 | 
+2026-02-23 16:57:04.097 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:04.097 | pid 15896 | -------------------------------
+2026-02-23 16:57:04.097 | pid 15896 | identifier              {3e19551b-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.097 | pid 15896 | path                    \EFI\ubuntu\shimx64.efi
+2026-02-23 16:57:04.097 | pid 15896 | description             ubuntu
+2026-02-23 16:57:04.097 | pid 15896 | 
+2026-02-23 16:57:04.097 | pid 15896 | 
+2026-02-23 16:57:04.097 | pid 15896 | 
+2026-02-23 16:57:04.097 | pid 15896 | Execute: bcdedit /enum {3e19551a-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.129 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:04.129 | pid 15896 | 
+2026-02-23 16:57:04.129 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:04.129 | pid 15896 | -------------------------------
+2026-02-23 16:57:04.129 | pid 15896 | identifier              {3e19551a-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.129 | pid 15896 | description             UEFI HTTPs Boot
+2026-02-23 16:57:04.129 | pid 15896 | 
+2026-02-23 16:57:04.129 | pid 15896 | 
+2026-02-23 16:57:04.129 | pid 15896 | 
+2026-02-23 16:57:04.130 | pid 15896 | Execute: bcdedit /enum {3e195518-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.163 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:04.163 | pid 15896 | 
+2026-02-23 16:57:04.163 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:04.163 | pid 15896 | -------------------------------
+2026-02-23 16:57:04.163 | pid 15896 | identifier              {3e195518-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.163 | pid 15896 | description             ONBOARD NIC (IPV4)
+2026-02-23 16:57:04.163 | pid 15896 | 
+2026-02-23 16:57:04.163 | pid 15896 | 
+2026-02-23 16:57:04.163 | pid 15896 | 
+2026-02-23 16:57:04.163 | pid 15896 | Execute: bcdedit /enum {3e195519-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.198 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:04.198 | pid 15896 | 
+2026-02-23 16:57:04.198 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:04.198 | pid 15896 | -------------------------------
+2026-02-23 16:57:04.198 | pid 15896 | identifier              {3e195519-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.198 | pid 15896 | description             ONBOARD NIC (IPV6)
+2026-02-23 16:57:04.198 | pid 15896 | 
+2026-02-23 16:57:04.198 | pid 15896 | 
+2026-02-23 16:57:04.198 | pid 15896 | 
+2026-02-23 16:57:04.200 | pid 15896 | Execute: bcdedit /enum {3e19551e-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.285 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:04.285 | pid 15896 | 
+2026-02-23 16:57:04.285 | pid 15896 | Resume from Hibernate
+2026-02-23 16:57:04.285 | pid 15896 | ---------------------
+2026-02-23 16:57:04.285 | pid 15896 | identifier              {3e19551e-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.285 | pid 15896 | device                  partition=C:
+2026-02-23 16:57:04.285 | pid 15896 | path                    \Windows\system32\winresume.efi
+2026-02-23 16:57:04.285 | pid 15896 | description             Windows Resume Application
+2026-02-23 16:57:04.285 | pid 15896 | locale                  en-US
+2026-02-23 16:57:04.285 | pid 15896 | inherit                 {resumeloadersettings}
+2026-02-23 16:57:04.285 | pid 15896 | recoverysequence        {3e195520-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.285 | pid 15896 | recoveryenabled         Yes
+2026-02-23 16:57:04.285 | pid 15896 | isolatedcontext         Yes
+2026-02-23 16:57:04.285 | pid 15896 | allowedinmemorysettings 0x15000075
+2026-02-23 16:57:04.285 | pid 15896 | filedevice              partition=C:
+2026-02-23 16:57:04.285 | pid 15896 | custom:21000026         partition=C:
+2026-02-23 16:57:04.285 | pid 15896 | filepath                \hiberfil.sys
+2026-02-23 16:57:04.285 | pid 15896 | bootmenupolicy          Standard
+2026-02-23 16:57:04.285 | pid 15896 | debugoptionenabled      No
+2026-02-23 16:57:04.285 | pid 15896 | 
+2026-02-23 16:57:04.285 | pid 15896 | 
+2026-02-23 16:57:04.285 | pid 15896 | 
+2026-02-23 16:57:04.293 | pid 15896 | Own entry not found.
+2026-02-23 16:57:04.294 | pid 15896 | Disabled NVRAM entry for HackBGRT.
+2026-02-23 16:57:04.295 | pid 15896 | HackBGRT has been disabled.
+2026-02-23 16:57:04.295 | pid 15896 | Completed action 'disable' successfully.
+2026-02-23 16:57:04.296 | pid 15896 | Running action 'install'.
+2026-02-23 16:57:04.304 | pid 15896 | Installed config.txt to A:\EFI\HackBGRT\config.txt.
+2026-02-23 16:57:04.325 | pid 15896 | config.txt:
+2026-02-23 16:57:04.325 | pid 15896 | # vim: set fileencoding=utf-8
+2026-02-23 16:57:04.325 | pid 15896 | # The same options may be given also as command line parameters in the EFI Shell, which is useful for debugging.
+2026-02-23 16:57:04.325 | pid 15896 | 
+2026-02-23 16:57:04.325 | pid 15896 | # Boot loader path. MS = either backup or original Windows boot loader.
+2026-02-23 16:57:04.325 | pid 15896 | boot=MS
+2026-02-23 16:57:04.325 | pid 15896 | 
+2026-02-23 16:57:04.325 | pid 15896 | # The image is specified with an image line.
+2026-02-23 16:57:04.325 | pid 15896 | # Multiple image lines may be present, in which case one will be picked by random.
+2026-02-23 16:57:04.325 | pid 15896 | # The image line may contain the following parts:
+2026-02-23 16:57:04.325 | pid 15896 | # Any of the following:
+2026-02-23 16:57:04.325 | pid 15896 | #  - "n=(number)", a weight for this image in the randomization process. Default: n=1.
+2026-02-23 16:57:04.325 | pid 15896 | #  - "x=(number)" or "x=keep", the x offset from the center. Default: x=0.
+2026-02-23 16:57:04.325 | pid 15896 | #  - "y=(number)" or "y=keep", the y offset from the center. Default: y=0.
+2026-02-23 16:57:04.325 | pid 15896 | #  - "o=(0|90|180|270|keep)", the screen orientation, degrees anticlockwise. Default: o=keep.
+2026-02-23 16:57:04.325 | pid 15896 | # One of the following:
+2026-02-23 16:57:04.325 | pid 15896 | #  - "keep" to keep the firmware logo. Also keeps coordinates by default.
+2026-02-23 16:57:04.325 | pid 15896 | #  - "remove" to remove the BGRT. Makes x and y meaningless.
+2026-02-23 16:57:04.325 | pid 15896 | #  - "black" to use only a black image. Makes x and y meaningless.
+2026-02-23 16:57:04.325 | pid 15896 | #  - "path=file.bmp" to read an image file.
+2026-02-23 16:57:04.325 | pid 15896 | #    * NOTE: The installer can copy and convert BMP, PNG, JPEG, GIF.
+2026-02-23 16:57:04.325 | pid 15896 | # Examples:
+2026-02-23 16:57:04.325 | pid 15896 | #  - image=remove
+2026-02-23 16:57:04.325 | pid 15896 | #  - image=black
+2026-02-23 16:57:04.325 | pid 15896 | #  - image= x=0 y=-200 path=topimage.bmp
+2026-02-23 16:57:04.325 | pid 15896 | #  - image= n=1 o=90 path=sideways.bmp
+2026-02-23 16:57:04.325 | pid 15896 | #  - image= n=50 y=999999 o=keep path=probable.bmp
+2026-02-23 16:57:04.325 | pid 15896 | # The above examples together would produce
+2026-02-23 16:57:04.325 | pid 15896 | #  - 1/54 chance for the default OS logo
+2026-02-23 16:57:04.325 | pid 15896 | #  - 1/54 chance for black screen
+2026-02-23 16:57:04.325 | pid 15896 | #  - 1/54 chance for topimage.bmp, 200 px above the center of the screen
+2026-02-23 16:57:04.325 | pid 15896 | #  - 1/54 chance for splash.bmp, centered, orientation set to 90 degrees
+2026-02-23 16:57:04.325 | pid 15896 | #  - 50/54 chance for probable.bmp, at the bottom edge, explicitly default orientation
+2026-02-23 16:57:04.325 | pid 15896 | # Default: just one image.
+2026-02-23 16:57:04.325 | pid 15896 | image= y=-200 path=splash.bmp
+2026-02-23 16:57:04.325 | pid 15896 | 
+2026-02-23 16:57:04.325 | pid 15896 | # Preferred resolution. Use 0x0 for maximum and -1x-1 for original.
+2026-02-23 16:57:04.325 | pid 15896 | resolution=0x0
+2026-02-23 16:57:04.325 | pid 15896 | 
+2026-02-23 16:57:04.325 | pid 15896 | # Logging (0 for disabled, 1 for enabled).
+2026-02-23 16:57:04.325 | pid 15896 | # When logging is enabled, setup.exe can show debug information about the current boot.
+2026-02-23 16:57:04.325 | pid 15896 | # The log might occupy a few kilobytes of RAM.
+2026-02-23 16:57:04.325 | pid 15896 | log=1
+2026-02-23 16:57:04.325 | pid 15896 | 
+2026-02-23 16:57:04.325 | pid 15896 | # Debug mode (0 for disabled, 1 for enabled).
+2026-02-23 16:57:04.325 | pid 15896 | # Shows debug information and prompts for keypress before booting.
+2026-02-23 16:57:04.325 | pid 15896 | debug=0
+2026-02-23 16:57:04.336 | pid 15896 | InstallImageFile: splash.bmp
+2026-02-23 16:57:04.371 | pid 15896 | Installed image splash.bmp to A:\EFI\HackBGRT\splash.bmp, size 1920x1080.
+2026-02-23 16:57:04.375 | pid 15896 | Installed shim-signed\shimx64.efi to A:\EFI\HackBGRT\loader.efi.
+2026-02-23 16:57:04.379 | pid 15896 | Installed shim-signed\mmx64.efi to A:\EFI\HackBGRT\mmx64.efi.
+2026-02-23 16:57:04.381 | pid 15896 | Installed efi-signed\bootx64.efi to A:\EFI\HackBGRT\䥗䑎坏SX.
+2026-02-23 16:57:04.383 | pid 15896 | Installed efi-signed\bootx64.efi to A:\EFI\HackBGRT\grubx64.efi.
+2026-02-23 16:57:04.384 | pid 15896 | Installed certificate.cer to A:\EFI\HackBGRT\certificate.cer.
+2026-02-23 16:57:04.385 | pid 15896 | HackBGRT has been copied to A:\EFI\HackBGRT.
+2026-02-23 16:57:04.385 | pid 15896 | On first boot, select 'Enroll hash from disk' and enroll EFI\HackBGRT\grubx64.efi.
+2026-02-23 16:57:04.386 | pid 15896 | Alternatively, select 'Enroll key from disk' and enroll EFI\HackBGRT\certificate.cer.
+2026-02-23 16:57:04.386 | pid 15896 | Completed action 'install' successfully.
+2026-02-23 16:57:04.387 | pid 15896 | Running action 'enable-bcdedit'.
+2026-02-23 16:57:04.388 | pid 15896 | Execute: manage-bde -status
+2026-02-23 16:57:04.805 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:04.805 | pid 15896 | BitLocker Drive Encryption: Configuration Tool version 10.0.26100
+2026-02-23 16:57:04.805 | pid 15896 | Copyright (C) 2013 Microsoft Corporation. All rights reserved.
+2026-02-23 16:57:04.805 | pid 15896 | 
+2026-02-23 16:57:04.805 | pid 15896 | Disk volumes that can be protected with
+2026-02-23 16:57:04.805 | pid 15896 | BitLocker Drive Encryption:
+2026-02-23 16:57:04.805 | pid 15896 | Volume D: [Sata]
+2026-02-23 16:57:04.805 | pid 15896 | [Data Volume]
+2026-02-23 16:57:04.805 | pid 15896 | 
+2026-02-23 16:57:04.805 | pid 15896 |     Size:                 223.44 GB
+2026-02-23 16:57:04.805 | pid 15896 |     BitLocker Version:    None
+2026-02-23 16:57:04.805 | pid 15896 |     Conversion Status:    Fully Decrypted
+2026-02-23 16:57:04.805 | pid 15896 |     Percentage Encrypted: 0.0%
+2026-02-23 16:57:04.805 | pid 15896 |     Encryption Method:    None
+2026-02-23 16:57:04.805 | pid 15896 |     Protection Status:    Protection Off
+2026-02-23 16:57:04.805 | pid 15896 |     Lock Status:          Unlocked
+2026-02-23 16:57:04.805 | pid 15896 |     Identification Field: None
+2026-02-23 16:57:04.805 | pid 15896 |     Automatic Unlock:     Disabled
+2026-02-23 16:57:04.805 | pid 15896 |     Key Protectors:       None Found
+2026-02-23 16:57:04.805 | pid 15896 | 
+2026-02-23 16:57:04.805 | pid 15896 | Volume C: []
+2026-02-23 16:57:04.805 | pid 15896 | [OS Volume]
+2026-02-23 16:57:04.805 | pid 15896 | 
+2026-02-23 16:57:04.805 | pid 15896 |     Size:                 476.01 GB
+2026-02-23 16:57:04.805 | pid 15896 |     BitLocker Version:    None
+2026-02-23 16:57:04.805 | pid 15896 |     Conversion Status:    Fully Decrypted
+2026-02-23 16:57:04.805 | pid 15896 |     Percentage Encrypted: 0.0%
+2026-02-23 16:57:04.805 | pid 15896 |     Encryption Method:    None
+2026-02-23 16:57:04.805 | pid 15896 |     Protection Status:    Protection Off
+2026-02-23 16:57:04.805 | pid 15896 |     Lock Status:          Unlocked
+2026-02-23 16:57:04.805 | pid 15896 |     Identification Field: None
+2026-02-23 16:57:04.805 | pid 15896 |     Key Protectors:       None Found
+2026-02-23 16:57:04.805 | pid 15896 | 
+2026-02-23 16:57:04.805 | pid 15896 | 
+2026-02-23 16:57:04.805 | pid 15896 | 
+2026-02-23 16:57:04.805 | pid 15896 | 
+2026-02-23 16:57:04.807 | pid 15896 | BitLocker is disabled, good!
+2026-02-23 16:57:04.808 | pid 15896 | Execute: bcdedit /enum firmware
+2026-02-23 16:57:04.892 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:04.892 | pid 15896 | 
+2026-02-23 16:57:04.892 | pid 15896 | Firmware Boot Manager
+2026-02-23 16:57:04.892 | pid 15896 | ---------------------
+2026-02-23 16:57:04.892 | pid 15896 | identifier              {fwbootmgr}
+2026-02-23 16:57:04.892 | pid 15896 | displayorder            {bootmgr}
+2026-02-23 16:57:04.892 | pid 15896 |                         {3e19551c-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.892 | pid 15896 |                         {3e19551b-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.892 | pid 15896 |                         {3e19551a-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.892 | pid 15896 |                         {3e195518-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.892 | pid 15896 |                         {3e195519-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.892 | pid 15896 | timeout                 0
+2026-02-23 16:57:04.892 | pid 15896 | 
+2026-02-23 16:57:04.892 | pid 15896 | Windows Boot Manager
+2026-02-23 16:57:04.892 | pid 15896 | --------------------
+2026-02-23 16:57:04.892 | pid 15896 | identifier              {bootmgr}
+2026-02-23 16:57:04.892 | pid 15896 | device                  partition=A:
+2026-02-23 16:57:04.892 | pid 15896 | path                    \EFI\Microsoft\Boot\bootmgfw.efi
+2026-02-23 16:57:04.892 | pid 15896 | description             Windows Boot Manager
+2026-02-23 16:57:04.892 | pid 15896 | locale                  en-US
+2026-02-23 16:57:04.892 | pid 15896 | inherit                 {globalsettings}
+2026-02-23 16:57:04.892 | pid 15896 | default                 {current}
+2026-02-23 16:57:04.892 | pid 15896 | resumeobject            {3e19551e-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.892 | pid 15896 | displayorder            {current}
+2026-02-23 16:57:04.892 | pid 15896 | toolsdisplayorder       {memdiag}
+2026-02-23 16:57:04.892 | pid 15896 | timeout                 30
+2026-02-23 16:57:04.892 | pid 15896 | 
+2026-02-23 16:57:04.892 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:04.892 | pid 15896 | -------------------------------
+2026-02-23 16:57:04.892 | pid 15896 | identifier              {3e195518-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.892 | pid 15896 | description             ONBOARD NIC (IPV4)
+2026-02-23 16:57:04.892 | pid 15896 | 
+2026-02-23 16:57:04.892 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:04.892 | pid 15896 | -------------------------------
+2026-02-23 16:57:04.892 | pid 15896 | identifier              {3e195519-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.892 | pid 15896 | description             ONBOARD NIC (IPV6)
+2026-02-23 16:57:04.892 | pid 15896 | 
+2026-02-23 16:57:04.892 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:04.892 | pid 15896 | -------------------------------
+2026-02-23 16:57:04.892 | pid 15896 | identifier              {3e19551a-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.892 | pid 15896 | description             UEFI HTTPs Boot
+2026-02-23 16:57:04.892 | pid 15896 | 
+2026-02-23 16:57:04.892 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:04.892 | pid 15896 | -------------------------------
+2026-02-23 16:57:04.892 | pid 15896 | identifier              {3e19551b-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.892 | pid 15896 | path                    \EFI\ubuntu\shimx64.efi
+2026-02-23 16:57:04.892 | pid 15896 | description             ubuntu
+2026-02-23 16:57:04.892 | pid 15896 | 
+2026-02-23 16:57:04.892 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:04.892 | pid 15896 | -------------------------------
+2026-02-23 16:57:04.892 | pid 15896 | identifier              {3e19551c-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:04.892 | pid 15896 | device                  partition=A:
+2026-02-23 16:57:04.892 | pid 15896 | path                    \EFI\Boot\BootX64.efi
+2026-02-23 16:57:04.892 | pid 15896 | description             UEFI 2400A NVMe Micron 512GB 240246DB2FD7 1
+2026-02-23 16:57:04.892 | pid 15896 | 
+2026-02-23 16:57:04.892 | pid 15896 | 
+2026-02-23 16:57:04.892 | pid 15896 | 
+2026-02-23 16:57:04.892 | pid 15896 | Execute: bcdedit /copy {bootmgr} /d HackBGRT
+2026-02-23 16:57:05.067 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:05.067 | pid 15896 | The entry was successfully copied to {3e195522-c560-11f0-b6e3-816c44781c52}.
+2026-02-23 16:57:05.067 | pid 15896 | 
+2026-02-23 16:57:05.067 | pid 15896 | 
+2026-02-23 16:57:05.067 | pid 15896 | 
+2026-02-23 16:57:05.067 | pid 15896 | Execute: bcdedit /set {3e195522-c560-11f0-b6e3-816c44781c52} device partition=A:\
+2026-02-23 16:57:05.115 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:05.115 | pid 15896 | The operation completed successfully.
+2026-02-23 16:57:05.115 | pid 15896 | 
+2026-02-23 16:57:05.115 | pid 15896 | 
+2026-02-23 16:57:05.115 | pid 15896 | 
+2026-02-23 16:57:05.115 | pid 15896 | Execute: bcdedit /set {3e195522-c560-11f0-b6e3-816c44781c52} path \EFI\HackBGRT\loader.efi
+2026-02-23 16:57:05.216 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:05.216 | pid 15896 | The operation completed successfully.
+2026-02-23 16:57:05.216 | pid 15896 | 
+2026-02-23 16:57:05.216 | pid 15896 | 
+2026-02-23 16:57:05.216 | pid 15896 | 
+2026-02-23 16:57:05.216 | pid 15896 | Execute: bcdedit /deletevalue {3e195522-c560-11f0-b6e3-816c44781c52} locale
+2026-02-23 16:57:05.259 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:05.259 | pid 15896 | The operation completed successfully.
+2026-02-23 16:57:05.259 | pid 15896 | 
+2026-02-23 16:57:05.259 | pid 15896 | 
+2026-02-23 16:57:05.259 | pid 15896 | 
+2026-02-23 16:57:05.259 | pid 15896 | Execute: bcdedit /deletevalue {3e195522-c560-11f0-b6e3-816c44781c52} inherit
+2026-02-23 16:57:05.293 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:05.293 | pid 15896 | The operation completed successfully.
+2026-02-23 16:57:05.293 | pid 15896 | 
+2026-02-23 16:57:05.293 | pid 15896 | 
+2026-02-23 16:57:05.293 | pid 15896 | 
+2026-02-23 16:57:05.293 | pid 15896 | Execute: bcdedit /deletevalue {3e195522-c560-11f0-b6e3-816c44781c52} default
+2026-02-23 16:57:05.326 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:05.326 | pid 15896 | The operation completed successfully.
+2026-02-23 16:57:05.326 | pid 15896 | 
+2026-02-23 16:57:05.326 | pid 15896 | 
+2026-02-23 16:57:05.326 | pid 15896 | 
+2026-02-23 16:57:05.326 | pid 15896 | Execute: bcdedit /deletevalue {3e195522-c560-11f0-b6e3-816c44781c52} resumeobject
+2026-02-23 16:57:05.373 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:05.373 | pid 15896 | The operation completed successfully.
+2026-02-23 16:57:05.373 | pid 15896 | 
+2026-02-23 16:57:05.373 | pid 15896 | 
+2026-02-23 16:57:05.373 | pid 15896 | 
+2026-02-23 16:57:05.373 | pid 15896 | Execute: bcdedit /deletevalue {3e195522-c560-11f0-b6e3-816c44781c52} displayorder
+2026-02-23 16:57:05.408 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:05.408 | pid 15896 | The operation completed successfully.
+2026-02-23 16:57:05.408 | pid 15896 | 
+2026-02-23 16:57:05.408 | pid 15896 | 
+2026-02-23 16:57:05.408 | pid 15896 | 
+2026-02-23 16:57:05.408 | pid 15896 | Execute: bcdedit /deletevalue {3e195522-c560-11f0-b6e3-816c44781c52} toolsdisplayorder
+2026-02-23 16:57:05.440 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:05.440 | pid 15896 | The operation completed successfully.
+2026-02-23 16:57:05.440 | pid 15896 | 
+2026-02-23 16:57:05.440 | pid 15896 | 
+2026-02-23 16:57:05.440 | pid 15896 | 
+2026-02-23 16:57:05.440 | pid 15896 | Execute: bcdedit /deletevalue {3e195522-c560-11f0-b6e3-816c44781c52} timeout
+2026-02-23 16:57:05.473 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:05.473 | pid 15896 | The operation completed successfully.
+2026-02-23 16:57:05.473 | pid 15896 | 
+2026-02-23 16:57:05.473 | pid 15896 | 
+2026-02-23 16:57:05.473 | pid 15896 | 
+2026-02-23 16:57:05.473 | pid 15896 | Execute: bcdedit /set {fwbootmgr} displayorder {3e195522-c560-11f0-b6e3-816c44781c52} /addfirst
+2026-02-23 16:57:05.566 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:05.566 | pid 15896 | The operation completed successfully.
+2026-02-23 16:57:05.566 | pid 15896 | 
+2026-02-23 16:57:05.566 | pid 15896 | 
+2026-02-23 16:57:05.566 | pid 15896 | 
+2026-02-23 16:57:05.566 | pid 15896 | Enabled NVRAM entry for HackBGRT with BCDEdit.
+2026-02-23 16:57:05.566 | pid 15896 | Execute: bcdedit /enum {3e195522-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:05.621 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:05.621 | pid 15896 | 
+2026-02-23 16:57:05.621 | pid 15896 | Windows Boot Manager
+2026-02-23 16:57:05.621 | pid 15896 | --------------------
+2026-02-23 16:57:05.621 | pid 15896 | identifier              {3e195522-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:05.621 | pid 15896 | device                  partition=A:
+2026-02-23 16:57:05.621 | pid 15896 | path                    \EFI\HackBGRT\loader.efi
+2026-02-23 16:57:05.621 | pid 15896 | description             HackBGRT
+2026-02-23 16:57:05.621 | pid 15896 | 
+2026-02-23 16:57:05.621 | pid 15896 | 
+2026-02-23 16:57:05.621 | pid 15896 | 
+2026-02-23 16:57:05.622 | pid 15896 | Updating own entry 0005.
+2026-02-23 16:57:05.622 | pid 15896 | Read EFI variable: Boot0004 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    t W i n d o w s   B o o t   M a n a g e r     *              @        Z B  I ot D       F \ E F I \ M i c r o s o f t \ B o o t \ b o o t m g f w . e f i      WINDOWS         x   B C D O B J E C T = { 9 d e a 8 6 2 c - 5 c d d - 4 e 7 0 - a c c 1 - f 3 2 b 3 4 4 d 4 7 9 5 }   .                ' Bytes='01 00 00 00 74 00 57 00 69 00 6E 00 64 00 6F 00 77 00 73 00 20 00 42 00 6F 00 6F 00 74 00 20 00 4D 00 61 00 6E 00 61 00 67 00 65 00 72 00 00 00 04 01 2A 00 01 00 00 00 00 08 00 00 00 00 00 00 00 40 06 00 00 00 00 00 E7 84 5A 9D 42 1E 17 49 AC 6F 74 B6 44 E7 8D C3 02 02 04 04 46 00 5C 00 45 00 46 00 49 00 5C 00 4D 00 69 00 63 00 72 00 6F 00 73 00 6F 00 66 00 74 00 5C 00 42 00 6F 00 6F 00 74 00 5C 00 62 00 6F 00 6F 00 74 00 6D 00 67 00 66 00 77 00 2E 00 65 00 66 00 69 00 00 00 7F FF 04 00 57 49 4E 44 4F 57 53 00 01 00 00 00 88 00 00 00 78 00 00 00 42 00 43 00 44 00 4F 00 42 00 4A 00 45 00 43 00 54 00 3D 00 7B 00 39 00 64 00 65 00 61 00 38 00 36 00 32 00 63 00 2D 00 35 00 63 00 64 00 64 00 2D 00 34 00 65 00 37 00 30 00 2D 00 61 00 63 00 63 00 31 00 2D 00 66 00 33 00 32 00 62 00 33 00 34 00 34 00 64 00 34 00 37 00 39 00 35 00 7D 00 00 00 2E 00 01 00 00 00 10 00 00 00 04 00 00 00 7F FF 04 00'
+2026-02-23 16:57:05.622 | pid 15896 | Read EFI variable: Boot0005 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    d H a c k B G R T     *              @        Z B  I ot D       6 \ E F I \ H a c k B G R T \ l o a d e r . e f i      WINDOWS         x   B C D O B J E C T = { 3 e 1 9 5 5 2 2 - c 5 6 0 - 1 1 f 0 - b 6 e 3 - 8 1 6 c 4 4 7 8 1 c 5 2 }   .                ' Bytes='01 00 00 00 64 00 48 00 61 00 63 00 6B 00 42 00 47 00 52 00 54 00 00 00 04 01 2A 00 01 00 00 00 00 08 00 00 00 00 00 00 00 40 06 00 00 00 00 00 E7 84 5A 9D 42 1E 17 49 AC 6F 74 B6 44 E7 8D C3 02 02 04 04 36 00 5C 00 45 00 46 00 49 00 5C 00 48 00 61 00 63 00 6B 00 42 00 47 00 52 00 54 00 5C 00 6C 00 6F 00 61 00 64 00 65 00 72 00 2E 00 65 00 66 00 69 00 00 00 7F FF 04 00 57 49 4E 44 4F 57 53 00 01 00 00 00 88 00 00 00 78 00 00 00 42 00 43 00 44 00 4F 00 42 00 4A 00 45 00 43 00 54 00 3D 00 7B 00 33 00 65 00 31 00 39 00 35 00 35 00 32 00 32 00 2D 00 63 00 35 00 36 00 30 00 2D 00 31 00 31 00 66 00 30 00 2D 00 62 00 36 00 65 00 33 00 2D 00 38 00 31 00 36 00 63 00 34 00 34 00 37 00 38 00 31 00 63 00 35 00 32 00 7D 00 00 00 2E 00 01 00 00 00 10 00 00 00 04 00 00 00 7F FF 04 00'
+2026-02-23 16:57:05.631 | pid 15896 | Writing EFI variable Boot0005 (see log for details)
+2026-02-23 16:57:05.631 | pid 15896 | Writing EFI variable: Boot0005 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    d H a c k B G R T     *              @        Z B  I ot D       6 \ E F I \ H a c k B G R T \ l o a d e r . e f i      WINDOWS X       x   B C D O B J E C T = { 3 e 1 9 5 5 2 2 - c 5 6 0 - 1 1 f 0 - b 6 e 3 - 8 1 6 c 4 4 7 8 1 c 5 2 }   .                ' Bytes='01 00 00 00 64 00 48 00 61 00 63 00 6B 00 42 00 47 00 52 00 54 00 00 00 04 01 2A 00 01 00 00 00 00 08 00 00 00 00 00 00 00 40 06 00 00 00 00 00 E7 84 5A 9D 42 1E 17 49 AC 6F 74 B6 44 E7 8D C3 02 02 04 04 36 00 5C 00 45 00 46 00 49 00 5C 00 48 00 61 00 63 00 6B 00 42 00 47 00 52 00 54 00 5C 00 6C 00 6F 00 61 00 64 00 65 00 72 00 2E 00 65 00 66 00 69 00 00 00 7F FF 04 00 57 49 4E 44 4F 57 53 00 58 00 00 00 88 00 00 00 78 00 00 00 42 00 43 00 44 00 4F 00 42 00 4A 00 45 00 43 00 54 00 3D 00 7B 00 33 00 65 00 31 00 39 00 35 00 35 00 32 00 32 00 2D 00 63 00 35 00 36 00 30 00 2D 00 31 00 31 00 66 00 30 00 2D 00 62 00 36 00 65 00 33 00 2D 00 38 00 31 00 36 00 63 00 34 00 34 00 37 00 38 00 31 00 63 00 35 00 32 00 7D 00 00 00 2E 00 01 00 00 00 10 00 00 00 04 00 00 00 7F FF 04 00'
+2026-02-23 16:57:05.678 | pid 15896 | Old boot order: BootOrder Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='              ' Bytes='05 00 04 00 00 00 06 00 03 00 01 00 02 00'
+2026-02-23 16:57:05.680 | pid 15896 | Execute: bcdedit /enum {3e195522-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:05.733 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:05.733 | pid 15896 | 
+2026-02-23 16:57:05.733 | pid 15896 | Windows Boot Manager
+2026-02-23 16:57:05.733 | pid 15896 | --------------------
+2026-02-23 16:57:05.733 | pid 15896 | identifier              {3e195522-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:05.733 | pid 15896 | device                  partition=A:
+2026-02-23 16:57:05.733 | pid 15896 | path                    \EFI\HackBGRT\loader.efi
+2026-02-23 16:57:05.733 | pid 15896 | description             HackBGRT
+2026-02-23 16:57:05.733 | pid 15896 | 
+2026-02-23 16:57:05.733 | pid 15896 | 
+2026-02-23 16:57:05.733 | pid 15896 | 
+2026-02-23 16:57:05.735 | pid 15896 | Verifying config: boot=MS
+2026-02-23 16:57:05.735 | pid 15896 | DetectLoader failed: A:\EFI\HackBGRT\bootmgfw-original.efi not found
+2026-02-23 16:57:05.894 | pid 15896 | LogEntries: BootOrder Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='              ' Bytes='05 00 04 00 00 00 06 00 03 00 01 00 02 00'
+2026-02-23 16:57:05.894 | pid 15896 | LogEntries: BootCurrent Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=6 Text='  ' Bytes='04 00'
+2026-02-23 16:57:05.895 | pid 15896 | LogEntries: Boot0005 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    d H a c k B G R T     *              @        Z B  I ot D       6 \ E F I \ H a c k B G R T \ l o a d e r . e f i      WINDOWS X       x   B C D O B J E C T = { 3 e 1 9 5 5 2 2 - c 5 6 0 - 1 1 f 0 - b 6 e 3 - 8 1 6 c 4 4 7 8 1 c 5 2 }   .                ' Bytes='01 00 00 00 64 00 48 00 61 00 63 00 6B 00 42 00 47 00 52 00 54 00 00 00 04 01 2A 00 01 00 00 00 00 08 00 00 00 00 00 00 00 40 06 00 00 00 00 00 E7 84 5A 9D 42 1E 17 49 AC 6F 74 B6 44 E7 8D C3 02 02 04 04 36 00 5C 00 45 00 46 00 49 00 5C 00 48 00 61 00 63 00 6B 00 42 00 47 00 52 00 54 00 5C 00 6C 00 6F 00 61 00 64 00 65 00 72 00 2E 00 65 00 66 00 69 00 00 00 7F FF 04 00 57 49 4E 44 4F 57 53 00 58 00 00 00 88 00 00 00 78 00 00 00 42 00 43 00 44 00 4F 00 42 00 4A 00 45 00 43 00 54 00 3D 00 7B 00 33 00 65 00 31 00 39 00 35 00 35 00 32 00 32 00 2D 00 63 00 35 00 36 00 30 00 2D 00 31 00 31 00 66 00 30 00 2D 00 62 00 36 00 65 00 33 00 2D 00 38 00 31 00 36 00 63 00 34 00 34 00 37 00 38 00 31 00 63 00 35 00 32 00 7D 00 00 00 2E 00 01 00 00 00 10 00 00 00 04 00 00 00 7F FF 04 00'
+2026-02-23 16:57:05.896 | pid 15896 | LogEntries: Boot0004 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    t W i n d o w s   B o o t   M a n a g e r     *              @        Z B  I ot D       F \ E F I \ M i c r o s o f t \ B o o t \ b o o t m g f w . e f i      WINDOWS         x   B C D O B J E C T = { 9 d e a 8 6 2 c - 5 c d d - 4 e 7 0 - a c c 1 - f 3 2 b 3 4 4 d 4 7 9 5 }   .                ' Bytes='01 00 00 00 74 00 57 00 69 00 6E 00 64 00 6F 00 77 00 73 00 20 00 42 00 6F 00 6F 00 74 00 20 00 4D 00 61 00 6E 00 61 00 67 00 65 00 72 00 00 00 04 01 2A 00 01 00 00 00 00 08 00 00 00 00 00 00 00 40 06 00 00 00 00 00 E7 84 5A 9D 42 1E 17 49 AC 6F 74 B6 44 E7 8D C3 02 02 04 04 46 00 5C 00 45 00 46 00 49 00 5C 00 4D 00 69 00 63 00 72 00 6F 00 73 00 6F 00 66 00 74 00 5C 00 42 00 6F 00 6F 00 74 00 5C 00 62 00 6F 00 6F 00 74 00 6D 00 67 00 66 00 77 00 2E 00 65 00 66 00 69 00 00 00 7F FF 04 00 57 49 4E 44 4F 57 53 00 01 00 00 00 88 00 00 00 78 00 00 00 42 00 43 00 44 00 4F 00 42 00 4A 00 45 00 43 00 54 00 3D 00 7B 00 39 00 64 00 65 00 61 00 38 00 36 00 32 00 63 00 2D 00 35 00 63 00 64 00 64 00 2D 00 34 00 65 00 37 00 30 00 2D 00 61 00 63 00 63 00 31 00 2D 00 66 00 33 00 32 00 62 00 33 00 34 00 34 00 64 00 34 00 37 00 39 00 35 00 7D 00 00 00 2E 00 01 00 00 00 10 00 00 00 04 00 00 00 7F FF 04 00'
+2026-02-23 16:57:05.896 | pid 15896 | LogEntries: Boot0000 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    ^ U E F I   2 4 0 0 A   N V M e   M i c r o n   5 1 2 G B   2 4 0 2 4 6 D B 2 F D 7   1     *              @        Z B  I ot D       0 \ E F I \ B o o t \ B o o t X 6 4 . e f i      N     YM    R,Y ' Bytes='01 00 00 00 5E 00 55 00 45 00 46 00 49 00 20 00 32 00 34 00 30 00 30 00 41 00 20 00 4E 00 56 00 4D 00 65 00 20 00 4D 00 69 00 63 00 72 00 6F 00 6E 00 20 00 35 00 31 00 32 00 47 00 42 00 20 00 32 00 34 00 30 00 32 00 34 00 36 00 44 00 42 00 32 00 46 00 44 00 37 00 20 00 31 00 00 00 04 01 2A 00 01 00 00 00 00 08 00 00 00 00 00 00 00 40 06 00 00 00 00 00 E7 84 5A 9D 42 1E 17 49 AC 6F 74 B6 44 E7 8D C3 02 02 04 04 30 00 5C 00 45 00 46 00 49 00 5C 00 42 00 6F 00 6F 00 74 00 5C 00 42 00 6F 00 6F 00 74 00 58 00 36 00 34 00 2E 00 65 00 66 00 69 00 00 00 7F FF 04 00 4E AC 08 81 11 9F 59 4D 85 0E E2 1A 52 2C 59 B2'
+2026-02-23 16:57:05.896 | pid 15896 | LogEntries: Boot0006 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    b u b u n t u     *                     n A)  )J      {s    4 \ E F I \ u b u n t u \ s h i m x 6 4 . e f i      ' Bytes='01 00 00 00 62 00 75 00 62 00 75 00 6E 00 74 00 75 00 00 00 04 01 2A 00 01 00 00 00 00 08 00 00 00 00 00 00 00 D0 20 00 00 00 00 00 6E F6 41 29 E5 88 29 4A B7 83 A2 DB 85 AA 7B 73 02 02 04 04 34 00 5C 00 45 00 46 00 49 00 5C 00 75 00 62 00 75 00 6E 00 74 00 75 00 5C 00 73 00 68 00 69 00 6D 00 78 00 36 00 34 00 2E 00 65 00 66 00 69 00 00 00 7F FF 04 00'
+2026-02-23 16:57:05.896 | pid 15896 | LogEntries: Boot0003 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    ` U E F I   H T T P s   B o o t        A                    %                                                                    N     YM    R,Y ' Bytes='01 00 00 00 60 00 55 00 45 00 46 00 49 00 20 00 48 00 54 00 54 00 50 00 73 00 20 00 42 00 6F 00 6F 00 74 00 00 00 02 01 0C 00 D0 41 03 0A 00 00 00 00 01 01 06 00 00 1D 01 01 06 00 00 00 03 0B 25 00 04 BF 1B C1 89 11 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 0C 1B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 18 04 00 7F FF 04 00 4E AC 08 81 11 9F 59 4D 85 0E E2 1A 52 2C 59 B2'
+2026-02-23 16:57:05.897 | pid 15896 | LogEntries: Boot0001 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    \ O N B O A R D   N I C   ( I P V 4 )        A                    %                                                                N     YM    R,Y ' Bytes='01 00 00 00 5C 00 4F 00 4E 00 42 00 4F 00 41 00 52 00 44 00 20 00 4E 00 49 00 43 00 20 00 28 00 49 00 50 00 56 00 34 00 29 00 00 00 02 01 0C 00 D0 41 03 0A 00 00 00 00 01 01 06 00 00 1D 01 01 06 00 00 00 03 0B 25 00 04 BF 1B C1 89 11 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 0C 1B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 7F FF 04 00 4E AC 08 81 11 9F 59 4D 85 0E E2 1A 52 2C 59 B2'
+2026-02-23 16:57:05.897 | pid 15896 | LogEntries: Boot0002 Guid={8be4df61-93ca-11d2-aa0d-00e098032b8c} Attributes=7 Text='    } O N B O A R D   N I C   ( I P V 6 )        A                    %                                    <                                        @                   N     YM    R,Y ' Bytes='01 00 00 00 7D 00 4F 00 4E 00 42 00 4F 00 41 00 52 00 44 00 20 00 4E 00 49 00 43 00 20 00 28 00 49 00 50 00 56 00 36 00 29 00 00 00 02 01 0C 00 D0 41 03 0A 00 00 00 00 01 01 06 00 00 1D 01 01 06 00 00 00 03 0B 25 00 04 BF 1B C1 89 11 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 0D 3C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 7F FF 04 00 4E AC 08 81 11 9F 59 4D 85 0E E2 1A 52 2C 59 B2'
+2026-02-23 16:57:05.905 | pid 15896 | HackBGRT boot entry is enabled correctly.
+2026-02-23 16:57:05.905 | pid 15896 | Execute: bcdedit /enum firmware
+2026-02-23 16:57:05.998 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:05.998 | pid 15896 | 
+2026-02-23 16:57:05.998 | pid 15896 | Firmware Boot Manager
+2026-02-23 16:57:05.998 | pid 15896 | ---------------------
+2026-02-23 16:57:05.998 | pid 15896 | identifier              {fwbootmgr}
+2026-02-23 16:57:05.998 | pid 15896 | displayorder            {3e195522-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:05.998 | pid 15896 |                         {bootmgr}
+2026-02-23 16:57:05.998 | pid 15896 |                         {3e19551c-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:05.998 | pid 15896 |                         {3e19551b-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:05.998 | pid 15896 |                         {3e19551a-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:05.998 | pid 15896 |                         {3e195518-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:05.998 | pid 15896 |                         {3e195519-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:05.998 | pid 15896 | timeout                 0
+2026-02-23 16:57:05.998 | pid 15896 | 
+2026-02-23 16:57:05.998 | pid 15896 | Windows Boot Manager
+2026-02-23 16:57:05.998 | pid 15896 | --------------------
+2026-02-23 16:57:05.998 | pid 15896 | identifier              {3e195522-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:05.998 | pid 15896 | device                  partition=A:
+2026-02-23 16:57:05.998 | pid 15896 | path                    \EFI\HackBGRT\loader.efi
+2026-02-23 16:57:05.998 | pid 15896 | description             HackBGRT
+2026-02-23 16:57:05.998 | pid 15896 | 
+2026-02-23 16:57:05.998 | pid 15896 | Windows Boot Manager
+2026-02-23 16:57:05.998 | pid 15896 | --------------------
+2026-02-23 16:57:05.998 | pid 15896 | identifier              {bootmgr}
+2026-02-23 16:57:05.998 | pid 15896 | device                  partition=A:
+2026-02-23 16:57:05.998 | pid 15896 | path                    \EFI\Microsoft\Boot\bootmgfw.efi
+2026-02-23 16:57:05.998 | pid 15896 | description             Windows Boot Manager
+2026-02-23 16:57:05.998 | pid 15896 | locale                  en-US
+2026-02-23 16:57:05.998 | pid 15896 | inherit                 {globalsettings}
+2026-02-23 16:57:05.998 | pid 15896 | default                 {current}
+2026-02-23 16:57:05.998 | pid 15896 | resumeobject            {3e19551e-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:05.998 | pid 15896 | displayorder            {current}
+2026-02-23 16:57:05.998 | pid 15896 | toolsdisplayorder       {memdiag}
+2026-02-23 16:57:05.998 | pid 15896 | timeout                 30
+2026-02-23 16:57:05.998 | pid 15896 | 
+2026-02-23 16:57:05.998 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:05.998 | pid 15896 | -------------------------------
+2026-02-23 16:57:05.998 | pid 15896 | identifier              {3e195518-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:05.998 | pid 15896 | description             ONBOARD NIC (IPV4)
+2026-02-23 16:57:05.998 | pid 15896 | 
+2026-02-23 16:57:05.998 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:05.998 | pid 15896 | -------------------------------
+2026-02-23 16:57:05.998 | pid 15896 | identifier              {3e195519-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:05.998 | pid 15896 | description             ONBOARD NIC (IPV6)
+2026-02-23 16:57:05.998 | pid 15896 | 
+2026-02-23 16:57:05.998 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:05.998 | pid 15896 | -------------------------------
+2026-02-23 16:57:05.998 | pid 15896 | identifier              {3e19551a-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:05.998 | pid 15896 | description             UEFI HTTPs Boot
+2026-02-23 16:57:05.998 | pid 15896 | 
+2026-02-23 16:57:05.998 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:05.998 | pid 15896 | -------------------------------
+2026-02-23 16:57:05.998 | pid 15896 | identifier              {3e19551b-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:05.998 | pid 15896 | path                    \EFI\ubuntu\shimx64.efi
+2026-02-23 16:57:05.998 | pid 15896 | description             ubuntu
+2026-02-23 16:57:05.998 | pid 15896 | 
+2026-02-23 16:57:05.998 | pid 15896 | Firmware Application (101fffff)
+2026-02-23 16:57:05.998 | pid 15896 | -------------------------------
+2026-02-23 16:57:05.998 | pid 15896 | identifier              {3e19551c-c560-11f0-b6e3-816c44781c52}
+2026-02-23 16:57:05.998 | pid 15896 | device                  partition=A:
+2026-02-23 16:57:05.998 | pid 15896 | path                    \EFI\Boot\BootX64.efi
+2026-02-23 16:57:05.998 | pid 15896 | description             UEFI 2400A NVMe Micron 512GB 240246DB2FD7 1
+2026-02-23 16:57:05.998 | pid 15896 | 
+2026-02-23 16:57:05.998 | pid 15896 | 
+2026-02-23 16:57:05.998 | pid 15896 | 
+2026-02-23 16:57:05.999 | pid 15896 | Completed action 'enable-bcdedit' successfully.
+2026-02-23 16:57:06.000 | pid 15896 | 
+2026-02-23 16:57:06.000 | pid 15896 | All done!
+2026-02-23 16:57:06.000 | pid 15896 | If you need to report a bug,
+2026-02-23 16:57:06.000 | pid 15896 |  - run this setup again with menu option L (show-boot-log)
+2026-02-23 16:57:06.000 | pid 15896 |  - then include the setup.log file with your report.
+2026-02-23 16:57:06.001 | pid 15896 | Press any key to quit.
+2026-02-23 16:57:07.903 | pid 15896 | Execute: mountvol A:\ /D
+2026-02-23 16:57:07.927 | pid 15896 | Exit code: 0, output:
+2026-02-23 16:57:07.927 | pid 15896 | 
+2026-02-23 16:57:07.927 | pid 15896 | 
+2026-02-23 16:57:07.927 | pid 15896 | 
